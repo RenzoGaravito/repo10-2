@@ -1,13 +1,9 @@
-/* ======= Estilos básicos ======= */
-
-/* Reset general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fuente base */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
@@ -16,13 +12,11 @@ body {
   min-height: 100vh;
 }
 
-/* Encabezados */
-h1, h2, h3, h4, h5 {
+h1, h2 {
   color: #222;
   margin-bottom: 10px;
 }
 
-/* Enlaces */
 a {
   color: #007bff;
   text-decoration: none;
@@ -33,14 +27,12 @@ a:hover {
   color: #0056b3;
 }
 
-/* Contenedor general */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 20px auto;
 }
 
-/* Botones */
 button, .btn {
   background-color: #007bff;
   color: white;
@@ -55,7 +47,6 @@ button:hover, .btn:hover {
   background-color: #0056b3;
 }
 
-/* Formularios */
 input, textarea, select {
   width: 100%;
   padding: 10px;
@@ -70,7 +61,6 @@ input:focus, textarea:focus, select:focus {
   box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
 }
 
-/* Tarjetas */
 .card {
   background: white;
   padding: 20px;
@@ -79,7 +69,6 @@ input:focus, textarea:focus, select:focus {
   margin-bottom: 20px;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 15px;
